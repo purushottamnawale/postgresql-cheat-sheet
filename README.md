@@ -18,11 +18,16 @@ sudo systemctl status postgresql
 #### Check PostgreSQL Version
 ```
 psql --version
+postgres --version
+```
+
+```
+SELECT version();
 ```
 
 
 ## Commands In psql
-##### Change Database
+##### Shift to a Database or Change Database
 ```
 \c <database_name>
 ```
