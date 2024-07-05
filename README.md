@@ -319,3 +319,6 @@ UPDATE 1
 
 More on Update:  
 https://www.postgresql.org/docs/current/sql-update.html
+
+More on Join:
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-joins/
