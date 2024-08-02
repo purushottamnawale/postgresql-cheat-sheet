@@ -6,8 +6,13 @@
 sudo -i -u postgres
 ```
 ##### Switch to user 'postgres' and start PostgreSQL command-line client
+Linux
 ```
 sudo -u postgres psql
+```
+Windows
+```
+psql -U postgres
 ```
 
 ##### Check Status 
@@ -15,7 +20,7 @@ sudo -u postgres psql
 sudo systemctl status postgresql
 ```
 
-#### Check PostgreSQL Version
+#### Check PostgreSQL Version Both Windows and Linux
 ```
 psql --version
 postgres --version
@@ -59,6 +64,14 @@ GRANT ALL PRIVILEGES ON DATABASE "testdb" to <user>;
 #### Delete a Database
 ```
 DROP DATABASE <database_name>;
+```
+
+
+#### PG DUMP
+###### Windows
+https://stackoverflow.com/a/76345277/25405144
+```
+
 ```
 
 
