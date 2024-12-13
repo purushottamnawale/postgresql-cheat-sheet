@@ -1,4 +1,4 @@
-# PostgreSQL Cheat Sheet
+# SQL Cheat Sheet
 
 ## Commands in Shell/Bash 
 ##### Switch to user 'postgres'
